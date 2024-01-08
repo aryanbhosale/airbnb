@@ -14,7 +14,7 @@ export default function Home({ exploreData }) {
       className={``}
     >
       <Head>
-        <title>Airbnb</title>
+        <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
         <link rel='icon' href='/logo.png' />
       </Head>
       
