@@ -26,7 +26,7 @@ console.log(searchResults)
         <main className="flex">
             <section className="flex-grow pt-14 px-6">
                 <p className="text-xs">
-                    300+ stays - {range} - for {noOfGuests} {noOfGuests > 1 ? "guests" : "guest"}
+                    {searchResults.results.length}+ stays - {range} - for {noOfGuests} {noOfGuests > 1 ? "guests" : "guest"}
                 </p>
                 <h1 className="text-3xl font-semibold mt-2 mb-6">Stays in {location}</h1>
                 <div className="flex flex-col">
