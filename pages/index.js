@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home({ exploreData }) {
   return (
     <div
-      className={``}
+      className={`overflow-x-hidden`}
     >
       <Head>
         <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
